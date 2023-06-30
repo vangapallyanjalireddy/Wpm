@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Application Form</title>
+</head>
+<body>
+  <h2>Application Form</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="education">Education:</label>
+    <input type="text" id="education" name="education" required><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="fatherName">Father's Name:</label>
+    <input type="text" id="fatherName" name="fatherName" required><br><br>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+
+    <label for="admissionNo">Admission Number:</label>
+    <input type="text" id="admissionNo" name="admissionNo" required><br><br>
+
+    <label for="course">course:</label><br>
+    <input type="checkbox" id="ai" name="course" value="ai">
+    <label for="ai">ai</label><br>
+    <input type="checkbox" id="aiml" name="course" value="aiml">
+    <label for="aiml">aiml</label><br>
+    <input type="checkbox" id="cse" name="course" value="cse">
+    <label for="cse">cse</label><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
